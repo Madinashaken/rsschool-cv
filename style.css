@@ -47,7 +47,7 @@ main{
     display: flex;
     flex-flow: column;
 padding:30px;
-    background-color: brown;
+    background-color: #FFFFFF;
     width: 70%;
 }
 
