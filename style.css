@@ -4,6 +4,12 @@
  box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .nav a, .right a {
     text-decoration: none;
 }
@@ -38,6 +44,10 @@ nav li {
 .nav-list, main li, sidebar li {
     list-style: none;
   }
+
+.skills-li li {
+    list-style-type: disc;
+}
 
 .main-cv {
     display: flex;
@@ -113,13 +123,45 @@ sidebar {
     margin:5px 0 20px 0;
 }
 
+.main-cv main  button {
+    color:#201e1f;
+    background-color:#2BDEF6;
+    width: 810px;
+    height: 40px;
+}
+
 footer{
     display: flex;
     flex-direction: row;
     justify-content:space-between;
+    background-color: #2BDEF6;
 }
 
 .right li a {
     padding: 50px 30px;
     
+}
+
+.section table {
+    width: 500px;
+   
+
+}
+@media(max-width: 1200px){
+    .main-cv div {
+        width: 80%;
+        padding: 10px 0 0 0;
+    }
+  
+}
+@media(max-width: 968px){
+  .main-cv  {
+        flex-direction: column;
+    }
+    sidebar {
+        width:100%;
+    }
+    main {
+        width: 100%;
+    }
 }
