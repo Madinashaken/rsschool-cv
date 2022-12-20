@@ -31,10 +31,22 @@ body {
 header {
     display: flex;
     flex-flow: column;
+    justify-content:center;
+    text-align: center;
     align-items: center;
-    height: 80px;
-   background-color: aqua; 
+    background-color: #2BDEF6;
+    background-image:url(./assets/img/banner.jpg);
+    background-size:100%;
 }
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 90px;
+    margin:10px 0;
+
+}
+
+
 
 nav li {
     display: flex;
@@ -114,6 +126,7 @@ sidebar {
     
     border-color:#2BDEF6;
     background-color: transparent;
+    border-top-left-radius: 10px;
     text-align: center;
     color: #FFFFFF;
     width: 150px;
@@ -126,6 +139,7 @@ sidebar {
 .main-cv main  button {
     color:#201e1f;
     background-color:#2BDEF6;
+    border-top-left-radius: 10px;
     width: 810px;
     height: 40px;
 }
@@ -135,6 +149,8 @@ footer{
     flex-direction: row;
     justify-content:space-between;
     background-color: #2BDEF6;
+    background-image:url(./assets/img/banner.jpg);
+    background-size:100%;
 }
 
 .right li a {
