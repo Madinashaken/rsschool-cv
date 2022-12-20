@@ -5,6 +5,10 @@
  box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth; 
+  }
+
 body {
   display: flex;
   flex-direction: column;
@@ -24,9 +28,10 @@ body {
 }
 
 .container {
-    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
     background-color:rgb(64, 62, 67);
-    margin:0 auto;
+    
 }
 
 header {
@@ -57,6 +62,7 @@ nav li {
 .nav-list, main li, sidebar li {
     list-style: none;
   }
+
 
 .skills-li li {
     list-style-type: disc;
