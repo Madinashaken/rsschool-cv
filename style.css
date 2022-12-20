@@ -43,6 +43,7 @@ header {
     background-color: #2BDEF6;
     background-image:url(./assets/img/banner.jpg);
     background-size:100%;
+    color: #FFFFFF;
 }
 .logo img {
     width: 100px;
