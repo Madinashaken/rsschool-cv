@@ -1,1 +1,2 @@
-https://Madinashaken.github.io/rsschool-cv/cv
+
+https://madinashaken.github.io/rsschool-cv/
