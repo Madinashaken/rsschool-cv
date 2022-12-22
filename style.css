@@ -43,6 +43,7 @@
        background-image:url(./assets/img/banner.jpg);
        background-size:100%;
        color: #FFFFFF;
+       height:400px;
    }
    .logo img {
        width: 100px;
@@ -68,16 +69,32 @@
        list-style-type: disc;
    }
    
+   #contacts li img {
+    margin: 10px 10px;
+    vertical-align: middle;
+   }
+
+   #contacts {
+    color:#FFFFFF;
+   }
+   #contacts a {
+    color:#FFFFFF;
+    text-decoration: none;
+   }
+   #contacts a:hover {
+    color:#2BDEF6;
+    text-decoration: none;
+   }
    .main-cv {
        display: flex;
-      
+       
    }
    main{
        display: flex;
        flex-flow: column;
    padding:30px;
        background-color: #FFFFFF;
-       width: 70%;
+      width: 70%;
    }
    
    
