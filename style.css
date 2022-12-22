@@ -68,7 +68,22 @@
    .skills-li li {
        list-style-type: disc;
    }
+
+ #contacts.section {
+    margin-left: 60px;
+    
+  }
+  #contacts button {
+    margin-left: 15px;
+  }
    
+  #projects img {
+    width: 200px;
+    height: 220px;
+    padding:5px  5px;
+    margin: 5px 5px;
+   }
+
    #contacts li img {
     margin: 10px 10px;
     vertical-align: middle;
